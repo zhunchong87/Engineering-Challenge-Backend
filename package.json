@@ -1,0 +1,15 @@
+{
+  "name": "backend_challenge",
+  "version": "1.0.0",
+  "description": "For Holmusk backend challenge",
+  "main": "scraper.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "mongodb": "latest",
+    "x-ray": "latest"
+  },
+  "author": "Tay Zhun Chong",
+  "license": "ISC"
+}
