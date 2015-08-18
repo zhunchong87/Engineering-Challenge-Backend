@@ -30,6 +30,7 @@ Contact Number: 91825687
 ** Created a foodcollections model in Sails, defining the attributes used.
 ** Make used of Sails's waterline to create a new record in MongoDB.
 ** Changed the default behaviour of not respecting schema in foodcollections model from false to true, since I am using MongoDB. This is to avoid POST request from sending in data elements which the database does not respect. The food item creation API will only allow creation of attributes defined in the model.
+
 ###Things for Improvement
 * Add in more advanced logic for to improve the Autocomplete. A possible way is to improve the text index residing in MongoDB.
 * Add in custom validation logic in Sails model for food creation API to check whether the nutritional values schema matches those defined in the MongoDB Nutrients {} object. Current validation logic only checks if Nutrients is a valid object.
